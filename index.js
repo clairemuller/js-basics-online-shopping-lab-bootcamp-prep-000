@@ -68,3 +68,6 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
 
 }
+
+
+
