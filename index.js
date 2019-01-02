@@ -61,12 +61,12 @@ function removeFromCart(item) {
       return cart;
     }
   }
-  
+
   return "That item is not in your cart.";
 }
 
 function placeOrder(cardNumber) {
-  
+
   if (cardNumber) {
     let cartTotal = total();
     cart = [];
@@ -76,8 +76,3 @@ function placeOrder(cardNumber) {
   return "Sorry, we don't have a credit card on file for you.";
 
 }
-
-
-
-
-
